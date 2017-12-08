@@ -15,7 +15,7 @@ access_token <- "*********************"
 access_secret <- "********************"
 
 #set up authenticate
-# choose yes for auto authenticationa dn no otherwise
+# choose yes for auto authentication or no otherwise
 setup_twitter_oauth(consumer_key ,consumer_secret,access_token ,access_secret)
 #fetch tweets
 tweets <- twitteR::searchTwitter("#EndSARS",n =1000,lang ="en",since = '2017-12-01')
